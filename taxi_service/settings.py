@@ -145,7 +145,5 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CRISPY_TEMPLATE_PACK="bootstrap4"
-
 LOGOUT_ON_GET = True
 LOGOUT_REDIRECT_URL = "taxi:index"

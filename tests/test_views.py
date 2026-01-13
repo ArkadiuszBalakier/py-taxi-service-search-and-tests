@@ -13,7 +13,7 @@ class PublicManufacturerListView(TestCase):
         self.assertNotEqual(res.status_code, 200)
 
 
-class PrivateManufacturerDetailView(TestCase):
+class PrivateManufacturerListViewTests(TestCase):
     def setUp(self) -> None:
         self.user = get_user_model().objects.create_user(
             username="testuser",

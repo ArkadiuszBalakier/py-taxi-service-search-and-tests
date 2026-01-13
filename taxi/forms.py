@@ -74,11 +74,3 @@ class ManufacturersSearchForm(forms.Form):
         required=False,
         label=""
     )
-
-
-class ManufacturersNameSearchForm(forms.Form):
-    name = forms.CharField(
-        max_length=255,
-        required=False,
-        label=""
-    )
