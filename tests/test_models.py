@@ -27,8 +27,8 @@ class ModelTests(TestCase):
         password = "test123"
         license_number = "test_license_number"
         driver = get_user_model().objects.create_user(
-            username= username,
-            password= password,
+            username=username,
+            password=password,
             license_number=license_number,
         )
         self.assertEqual(driver.license_number, license_number)
